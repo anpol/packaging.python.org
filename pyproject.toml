@@ -1,0 +1,15 @@
+[project]
+name = "packaging-python-org"
+version = "0.1.0"
+description = "Python Packaging User Guide"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "furo==2024.8.6",
+    "nox[uv]>=2026.4.10",
+    "sphinx==7.2.6",
+    "sphinx-autobuild==2021.3.14",
+    "sphinx-copybutton==0.5.2",
+    "sphinx-inline-tabs==2023.4.21",
+    "sphinx-jsonschema==1.19.1",
+    "sphinx-toolbox==3.5.0",
+]
